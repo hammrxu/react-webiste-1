@@ -2,12 +2,13 @@ import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
 
-export default function SignUp() {
+export default function About() {
   return (
     <>
-      <h1 className='sign-up'>LIKE & SUBSCRIBE</h1>
+      <h1 className='about'>About</h1>
       <Footer />
     </>
   );
 }
+
 
