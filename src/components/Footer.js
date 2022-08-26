@@ -28,7 +28,7 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
+            <h2>About</h2>
             <Link to='/resume'>RESUME</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
@@ -36,11 +36,10 @@ function Footer() {
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Social Media</h2>
+            <Link to='/'>Linkedin</Link>
+            <Link to='/'>Github</Link>
+            <Link to='/'>YouTube</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -63,57 +62,41 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
-            </Link>
+            <small><Link to='/' className='social-logo'>
+              Hammer Xu
+            </Link></small>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>Hammer Xu © 2022</small>
+
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
+            <small><Link
+              class='social-icon-link linkedin'
               to='/'
               target='_blank'
-              aria-label='Facebook'
+              aria-label='Linkedin'
             >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
+              <i class="fab fa-linkedin"></i>
+            </Link></small>
+            <small><Link
+              class='social-icon-link github'
               to='/'
               target='_blank'
-              aria-label='Instagram'
+              aria-label='Github'
             >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
+              <i class="fab fa-github-square"></i>
+            </Link></small>
+            <small><Link
               class='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+            </Link></small>
           </div>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   );
 }
 
