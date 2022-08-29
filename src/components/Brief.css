@@ -1,0 +1,44 @@
+.brief-container {
+	margin: 4rem auto;
+	max-width: 1120px;
+	/* margin-top: 3rem !important; */
+	width: 100%;
+	/* margin-bottom: 3rem !important; */
+}
+.brief-container h1 {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+}
+.brief-container h1 i {
+	font-size: 1.7rem;
+	position: relative;
+	top: -0.25rem;
+	animation-delay: 750ms;
+}
+.brief-container p {
+	margin-top: 0;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+	width: 65%;
+}
+
+.w3-animate-bottom {
+	animation-delay: 750ms;
+	animation-duration: 0.75s;
+}
+@media only screen and (max-width: 1200px) {
+	.brief-container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.brief-container p {
+		width: 100%;
+	}
+	.brief-container {
+		text-align: center;
+	}
+}

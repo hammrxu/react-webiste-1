@@ -11,15 +11,18 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='./images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/about'
+              text='Scheduler (MLH Backyard Hacks III)'
+              label='JQeury/PHP'
+              path='/project/project01'
+              devpost='https://devpost.com/software/churchscheduler'
+              web='http://church-scheduler.lovestoblog.com/pages/index.php'
             />
             <CardItem
-              src='./images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/about'
+              src='./images/img-9.jpg'
+              text='Lisp Interpreter (MLH Hacky Birthday MLH! 2022)'
+              label='Python/Lisp'
+              path='/project/project02'
+              devpost='https://devpost.com/software/simple-lisp-interpreter-in-python'
             />
           </ul>
           <ul className='cards__items'>

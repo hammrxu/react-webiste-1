@@ -1,15 +1,16 @@
 import React from 'react';
 import '../../App.css';
+import Update from '../Update';
 import Cards from '../Cards';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+import Brief from '../Brief';
+
 
 function Home() {
   return (
     <>
-      <HeroSection />
+      <Update />
+      <Brief />
       <Cards />
-      <Footer />
     </>
   );
 }

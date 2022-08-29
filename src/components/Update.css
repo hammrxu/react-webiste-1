@@ -1,0 +1,52 @@
+.alert-container {
+	margin: 0 auto;
+	max-width: 1120px;
+	margin-top: 1.5rem !important;
+}
+
+.alert-primary {
+	color: #004085;
+	background-color: #cce5ff;
+	border-color: #b8daff;
+}
+.alert {
+	position: relative;
+	padding: 1.75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	border-radius: 0.25rem;
+}
+.fade {
+	opacity: 1;
+	/* transition: opacity 0.15s linear; */
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.8s;
+}
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.alert-heading {
+	color: inherit;
+}
+.alert-container .h4 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
+}
+
+.alert-container p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}

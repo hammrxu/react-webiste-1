@@ -1,12 +1,14 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -24,11 +26,11 @@ function Footer() {
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About</h2>
+            <p><pre><strong>About</strong></pre></p>
             <Link to='/resume'>RESUME</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
@@ -36,7 +38,7 @@ function Footer() {
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
+            <p><pre><strong>My Links</strong></pre></p>
             <Link to='/'>Linkedin</Link>
             <Link to='/'>Github</Link>
             <Link to='/'>YouTube</Link>
@@ -44,14 +46,14 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
+            <p><pre><strong>This Site Built By</strong></pre></p>
+            <a href='https://reactjs.org/' target='_blank' ><FontAwesomeIcon icon="fa-brands fa-react" /> React</a>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
+            <p><pre><strong>Social Media</strong></pre></p>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
@@ -63,10 +65,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <small><Link to='/' className='social-logo'>
-              Hammer Xu
+              Peng Xu
             </Link></small>
           </div>
-          <small class='website-rights'>Hammer Xu © 2022</small>
+          <small class='website-rights'>Peng Xu © 2022</small>
 
           <div class='social-icons'>
             <small><Link
