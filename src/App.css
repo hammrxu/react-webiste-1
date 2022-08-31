@@ -35,6 +35,9 @@ h1 {
 body.bg-dark h1 {
 	color: #cce5fe;
 }
+body.bg-dark .featured-section h1 {
+	color: #1a2337;
+}
 body.bg-dark a {
 	color: var(--primary) !important;
 }
@@ -45,15 +48,10 @@ body.bg-dark {
 }
 body.bg-dark nav {
 	background-color: var(--secondary);
-	/* color: var(--primary); */
-	border-bottom: 1px solid var(--primary);
 }
 
 body.bg-dark .nav-menu.active {
 	background: var(--secondary);
-}
-body.bg-dark nav {
-	border-bottom: 1px solid var(--primary);
 }
 body.bg-dark .nav-links:hover {
 	border-bottom: 4px solid var(--primary);

@@ -3,7 +3,7 @@ import '../../App.css';
 import Update from '../Update';
 import Cards from '../Cards';
 import Brief from '../Brief';
-import Books from '../Books';
+import FeaturedSection from '../FeaturedSection';
 
 
 function Home() {
@@ -11,8 +11,9 @@ function Home() {
     <>
       <Update />
       <Brief />
+      <FeaturedSection />
       <Cards />
-      <Books />
+
     </>
   );
 }

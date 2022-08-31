@@ -1,0 +1,19 @@
+.landing-header.featured-section {
+	background: linear-gradient(47deg, #dbcdff, #96d7ff);
+}
+
+.landing-header.featured-section .mt-5.mb-4.container {
+	max-width: 1120px !important;
+}
+.dynamic-cards {
+	width: 100%;
+	padding: 1.2em;
+	color: #fff;
+	background: #fff;
+	border-radius: 8px;
+	min-height: 22rem;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	background-origin: border-box;
+}
