@@ -3,6 +3,7 @@ import '../../App.css';
 import Update from '../Update';
 import Cards from '../Cards';
 import Brief from '../Brief';
+import Books from '../Books';
 
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
       <Update />
       <Brief />
       <Cards />
+      <Books />
     </>
   );
 }

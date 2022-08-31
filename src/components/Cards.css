@@ -1,6 +1,5 @@
 .cards {
 	/* padding: 4rem; */
-	background: #fff;
 	max-width: 1120px;
 	margin: 0 auto;
 }
@@ -39,6 +38,9 @@
 	display: flex;
 	flex: 1;
 	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 25px;
+	max-width: 500px;
 }
 
 .cards__item__link {
@@ -68,12 +70,12 @@
 	content: attr(data-category);
 	position: absolute;
 	bottom: 0;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 	padding: 6px 8px;
 	max-width: calc((100%) - 60px);
 	font-size: 12px;
 	font-weight: 700;
-	color: #fff;
+	/* color: #fff; */
 	background-color: #1f98f4;
 	box-sizing: border-box;
 }
@@ -102,7 +104,7 @@
 }
 
 .cards__item__text {
-	color: #252e48;
+	/* color: #252e48; */
 	font-size: 18px;
 	line-height: 24px;
 }

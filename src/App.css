@@ -1,3 +1,7 @@
+:root {
+	--primary: #fff;
+	--secondary: #242424;
+}
 @font-face {
 	font-family: CustomGoogleFont;
 	src: url('assets/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
@@ -9,14 +13,58 @@
 	padding: 0;
 	font-family: CustomGoogleFont;
 }
+ol,
+ul {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+a {
+	color: var(--secondary);
+}
 body {
 	min-width: 400px;
+}
+h1 {
+	font-size: 2rem;
+}
+h1 {
+	letter-spacing: 4px;
+	color: #53a8fd;
+}
+
+body.bg-dark h1 {
+	color: #cce5fe;
+}
+body.bg-dark a {
+	color: var(--primary) !important;
+}
+
+body.bg-dark {
+	background-color: var(--secondary);
+	color: var(--primary);
+}
+body.bg-dark nav {
+	background-color: var(--secondary);
+	/* color: var(--primary); */
+	border-bottom: 1px solid var(--primary);
+}
+
+body.bg-dark .nav-menu.active {
+	background: var(--secondary);
+}
+body.bg-dark nav {
+	border-bottom: 1px solid var(--primary);
+}
+body.bg-dark .nav-links:hover {
+	border-bottom: 4px solid var(--primary);
+}
+body.bg-dark .footer-link-items a:hover {
+	color: var(--primary);
 }
 
 .home,
 .about,
-.products,
-.resume {
+.products {
 	display: flex;
 	height: 90vh;
 	align-items: center;
@@ -26,7 +74,7 @@ body {
 
 .about {
 	background-image: url('./images/img-2.jpg');
-	background-position: center;
+	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;

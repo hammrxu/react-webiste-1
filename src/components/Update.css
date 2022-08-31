@@ -5,7 +5,7 @@
 }
 
 .alert-primary {
-	color: #004085;
+	color: #004085 !important;
 	background-color: #cce5ff;
 	border-color: #b8daff;
 }
@@ -19,6 +19,9 @@
 	border-bottom-color: transparent;
 	border-left-color: transparent;
 	border-radius: 0.25rem;
+}
+a .alert-link {
+	color: #004085 !important;
 }
 .fade {
 	opacity: 1;
