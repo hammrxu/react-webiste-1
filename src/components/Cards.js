@@ -5,46 +5,42 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Featured Projects!</h1>
+      <h1>Other Projects!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='./images/img-9.jpg'
+              src='./images/img-5.jpg'
               text='Scheduler (MLH Backyard Hacks III)'
-              label='JQeury/PHP'
-              path='/project/project01'
+              label='JQeury / PHP'
+              path='/'
               devpost='https://devpost.com/software/churchscheduler'
               web='http://church-scheduler.lovestoblog.com/pages/index.php'
             />
             <CardItem
-              src='./images/img-9.jpg'
+              src='./images/img-5.jpg'
               text='Lisp Interpreter (MLH Hacky Birthday MLH! 2022)'
-              label='Python/Lisp'
-              path='/project/project02'
+              label='Python / Lisp'
+              path='/'
               devpost='https://devpost.com/software/simple-lisp-interpreter-in-python'
             />
+            <CardItem
+              src='./images/img-6.jpg'
+              text='MS excel macros helping real Shopify business shortern data process'
+              label='VBA / MS Excel'
+              path='/'
+            />
           </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='./images/img-3.jpg'
-              text='WordPress Web Volunteer'
-              label='WordPress'
-              path='/about'
-            />
-            <CardItem
-              src='./images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
+          {/* <ul className='cards__items'>
+
+
             <CardItem
               src='./images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
               path='/resume'
             />
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

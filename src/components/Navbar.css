@@ -1,7 +1,3 @@
-:root {
-	--primary: #fff;
-	--secondary: #242424;
-}
 .navbar {
 	background: var(--primary);
 	height: 45px;
@@ -27,7 +23,6 @@
 
 .navbar-logo {
 	justify-self: start;
-	/* margin-left: 20px; */
 	min-width: 105px;
 	height: 45px;
 	cursor: pointer;
@@ -110,7 +105,9 @@
 		z-index: 1;
 		border-top: 1px solid var(--secondary);
 	}
-
+	.nav-menu li {
+		max-height: 200px;
+	}
 	.nav-links {
 		text-align: center;
 		padding: 2rem 0rem;
@@ -170,5 +167,11 @@
 	}
 	input {
 		text-align: center;
+	}
+	.nav-links:hover {
+		background-color: var(--primary);
+		border: none !important;
+		transform: translateY(-3px);
+		font-size: 2rem;
 	}
 }

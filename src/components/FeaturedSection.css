@@ -17,3 +17,22 @@
 	background-size: cover;
 	background-origin: border-box;
 }
+.dynamic-cards.mb-3:hover {
+	box-shadow: grey 0px 10px 16px 2px !important;
+	transform: translateY(-5px) translateZ(0px) !important;
+}
+
+@media screen and (max-width: 800px) {
+	.dynamic-cards {
+		/* width: 100%; */
+		padding: 1.2em;
+		color: #fff;
+		background: #fff;
+		border-radius: 8px;
+		min-height: 22rem;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		background-size: cover;
+		background-origin: border-box;
+	}
+}

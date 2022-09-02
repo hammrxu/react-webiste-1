@@ -1,85 +1,37 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import './FeaturedSection.css';
+import React, { useState } from 'react';
 
 function FeaturedSection() {
+    const [feature_hover1, setHover1] = useState(false);
+    const [feature_hover2, setHover2] = useState(false);
+    const [feature_hover3, setHover3] = useState(false);
+    const [feature_hover4, setHover4] = useState(false);
     return (
-        // <Container mt={5} mb={4}>
-        //     <Row className="mb-4">
-        //         <Col>
-        //             <h2 className="font-weight-bold dark-blue">
-        //                 Selected Work</h2>
-        //         </Col>
-        //     </Row>
-        //     <Row style={{ opacity: 1, transform: "none" }}>
-        //         {/*  */}
-        //         <a className="col-lg-3 col-md-6 col-sm-12" href="/w/adobejam">
-        //             <div >
-        //                 <div className="dynamic-cards mb-3"
-        //                 >
-        //                     <p>Airbnb &amp; Adobe Design Challenge</p>
-        //                     <h3 className="font-weight-medium" >Product Designer</h3>
-        //                     <p className="font-weight-light text-card" >
-        //                         Spending 48 hours to solve how users can stay connected during the pandemic
-        //                     </p>
-        //                 </div>
-        //             </div>
-        //         </a>
-        //         <a className="col-lg-3 col-md-6 col-sm-12" href="/w/kpmg">
-        //             <div >
-        //                 <div className="dynamic-cards mb-3" >
-        //                     <p className="font-weight-regular">KPMG Ideation Challenge</p>
-        //                     <h3 className="font-weight-medium" >Regional Champions</h3>
-        //                     <p className="font-weight-light text-card" >Representing Ontario on the national stage to answer the question: How might we give back time?</p>
-        //                 </div>
-        //             </div>
-        //         </a>
-        //         <a className="col-lg-3 col-md-6 col-sm-12" href="/w/casecom">
-        //             <div >
-        //                 <div className="dynamic-cards mb-3" >
-        //                     <p className="font-weight-regular" >CaseCom</p>
-        //                     <h3 className="font-weight-medium" >Co-Founder</h3>
-        //                     <p className="font-weight-light text-card" >Building the future of online case competitions</p>
-        //                 </div>
-        //             </div>
-        //         </a>
-        //         <a className="col-lg-3 col-md-6 col-sm-12" href="/w/hackwestern7">
-        //             <div >
-        //                 <div className="dynamic-cards mb-3" >
-        //                     <p className="font-weight-regular" >Hack Western 7 - Make Anything, Anywhere
-        //                     </p>
-        //                     <h3 className="font-weight-medium" >Product Lead</h3>
-        //                     <p className="font-weight-light text-card" >Leading one of Canada's largest hackathons and the journey to their first virtual event
-        //                     </p>
-        //                 </div>
-        //             </div>
-        //         </a>
-        //     </Row>
-        // </Container >
+
         <div className="landing-header featured-section row">
             <div className="mt-5 mb-4 container">
                 <div className="mb-4 row">
                     <div className="col">
-                        <h1 className="font-weight-bold dark-blue">Selected Work</h1>
+                        <h1 className="font-weight-bold dark-blue">Featured Work</h1>
                     </div>
                 </div>
-                <div className="row" style={{ opacity: 1, transform: "none" }}>
+                <div className="row" style={{ opacity: 1 }}>
                     <a
                         style={{ textDecoration: "none" }}
                         className="col-lg-3 col-md-6 col-sm-12"
-                        href="/w/adobejam"
+                        href="/"
                     >
-                        <div style={{ opacity: 1, transform: "none" }}>
+                        <div style={{ opacity: 1 }}>
                             <div
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(180, 20, 25, 0.8), rgba(180, 20, 25, 0.2)), url("https://doixzan7hf4ti.cloudfront.net/logos/airbnb.png")',
-                                    transform: "none",
+                                        'linear-gradient(rgba(180, 20, 25, 0.8), rgba(180, 20, 25, 0.2)), url("./images/img-1.jpg")',
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
                                 }}
+                                onMouseOver={() => setHover1(true)}
+                                onMouseOut={() => setHover1(!true)}
                             >
                                 <p
                                     className="font-weight-regular"
@@ -91,25 +43,26 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    Airbnb &amp; Adobe Design Challenge
+                                    WordPress: Toronto International Student
+
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Product Designer
+                                    Web Manager
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
                                     style={{
-                                        transform: "translateY(20px) translateZ(0px)",
-                                        opacity: 0,
+                                        transform: feature_hover1 ? "translateY(20px) translateZ(0px)" : "none",
+                                        opacity: feature_hover1 ? 1 : 0,
                                         padding: 10,
-                                        borderRadius: 4
+                                        borderRadius: 4,
+                                        backgroundColor: feature_hover1 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Spending 48 hours to solve how users can stay connected during the
-                                    pandemic
+                                    Volunteering in a student facing non profit organization as a web manager.
                                 </p>
                             </div>
                         </div>
@@ -117,18 +70,20 @@ function FeaturedSection() {
                     <a
                         style={{ textDecoration: "none" }}
                         className="col-lg-3 col-md-6 col-sm-12"
-                        href="/w/kpmg"
+                        href="/"
                     >
-                        <div style={{ opacity: 1, transform: "none" }}>
+                        <div style={{ opacity: 1 }}>
                             <div
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(1, 49, 138, 0.8), rgba(1, 49, 138, 0.2)), url("https://doixzan7hf4ti.cloudfront.net/logos/kpmglogo.png")',
-                                    transform: "none",
+                                        'linear-gradient(rgba(1, 49, 138, 0.8), rgba(1, 49, 138, 0.2)), url("./images/img-2.png")',
+
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
                                 }}
+                                onMouseOver={() => setHover2(true)}
+                                onMouseOut={() => setHover2(!true)}
                             >
                                 <p
                                     className="font-weight-regular"
@@ -140,25 +95,25 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    KPMG Ideation Challenge
+                                    JQeury/PHP/MySql: WTCBC Church
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Regional Champions
+                                    Front-End Dev
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
                                     style={{
-                                        transform: "translateY(20px) translateZ(0px)",
-                                        opacity: 0,
+                                        transform: feature_hover2 ? "translateY(20px) translateZ(0px)" : "none",
+                                        opacity: feature_hover2 ? 1 : 0,
                                         padding: 10,
-                                        borderRadius: 4
+                                        borderRadius: 4,
+                                        backgroundColor: feature_hover2 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Representing Ontario on the national stage to answer the question:
-                                    How might we give back time?
+                                    Created a web-based tool in PHP/Jquery/Mysql for the organization to schedule/assign service to helper for avoiding conflicts
                                 </p>
                             </div>
                         </div>
@@ -166,18 +121,20 @@ function FeaturedSection() {
                     <a
                         style={{ textDecoration: "none" }}
                         className="col-lg-3 col-md-6 col-sm-12"
-                        href="/w/casecom"
+                        href="/"
                     >
-                        <div style={{ opacity: 1, transform: "none" }}>
+                        <div style={{ opacity: 1 }}>
                             <div
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(179, 123, 45, 0.8), rgba(179, 123, 45, 0.2)), url("https://doixzan7hf4ti.cloudfront.net/logos/casecomlogo.png")',
-                                    transform: "none",
+                                        'linear-gradient(rgba(179, 123, 45, 0.8), rgba(179, 123, 45, 0.2)), url("./images/img-3.png")',
+
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
                                 }}
+                                onMouseOver={() => setHover3(true)}
+                                onMouseOut={() => setHover3(!true)}
                             >
                                 <p
                                     className="font-weight-regular"
@@ -189,24 +146,25 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    CaseCom
+                                    JQeury/PHP: Freelance Work Experience
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Co-Founder
+                                    Front-End Dev
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
                                     style={{
-                                        transform: "translateY(20px) translateZ(0px)",
-                                        opacity: 0,
+                                        transform: feature_hover3 ? "translateY(20px) translateZ(0px)" : "none",
+                                        opacity: feature_hover3 ? 1 : 0,
                                         padding: 10,
-                                        borderRadius: 4
+                                        borderRadius: 4,
+                                        backgroundColor: feature_hover3 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Building the future of online case competitions
+                                    Building the map query, file+image upload,navigation in MVC environment
                                 </p>
                             </div>
                         </div>
@@ -214,18 +172,20 @@ function FeaturedSection() {
                     <a
                         style={{ textDecoration: "none" }}
                         className="col-lg-3 col-md-6 col-sm-12"
-                        href="/w/hackwestern7"
+                        href="/"
                     >
-                        <div style={{ opacity: 1, transform: "none" }}>
+                        <div style={{ opacity: 1 }}>
                             <div
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(30, 9, 59, 0.8), rgba(30, 9, 59, 0.2)), url("https://doixzan7hf4ti.cloudfront.net/logos/hw7logo.png")',
-                                    transform: "none",
+                                        'linear-gradient(rgba(30, 9, 59, 0.8), rgba(30, 9, 59, 0.2)), url("./images/img-4.jpg")',
+
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
                                 }}
+                                onMouseOver={() => setHover4(true)}
+                                onMouseOut={() => setHover4(!true)}
                             >
                                 <p
                                     className="font-weight-regular"
@@ -237,32 +197,32 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    Hack Western 7 - Make Anything, Anywhere
+                                    Coming Soon..........
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Product Lead
+                                    Coming Soon
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
                                     style={{
-                                        transform: "translateY(20px) translateZ(0px)",
-                                        opacity: 0,
+                                        transform: feature_hover4 ? "translateY(20px) translateZ(0px)" : "none",
+                                        opacity: feature_hover4 ? 1 : 0,
                                         padding: 10,
-                                        borderRadius: 4
+                                        borderRadius: 4,
+                                        backgroundColor: feature_hover4 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Leading one of Canada’s largest hackathons and the journey to
-                                    their first virtual event
+
                                 </p>
                             </div>
                         </div>
                     </a>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
 
 
 
