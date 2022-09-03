@@ -42,7 +42,7 @@ function Navbar() {
             </li>
           </ul>
           <div className="switch-component">
-            <span>Theme</span>
+            <span>{value ? 'on' : 'off'}</span>
             <SwitchLabel
               isOn={value}
               onColor="#06D6A0"

@@ -56,4 +56,16 @@
 	.card-row > a {
 		width: 400px;
 	}
+
+	.card-row {
+		padding: 0 20vw;
+	}
+	.dynamic-cards {
+		max-height: 200px;
+	}
+	.featured-section {
+		width: 100vw;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
 }

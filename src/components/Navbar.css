@@ -27,7 +27,6 @@
 	height: 45px;
 	cursor: pointer;
 	text-decoration: none;
-	font-size: 1.3rem;
 	padding: 0.5rem 0px;
 }
 
@@ -74,6 +73,7 @@
 	align-items: center;
 	font-size: smaller;
 	min-width: 80px;
+	padding: 0.5rem 1rem;
 }
 
 @media screen and (max-width: 960px) {
@@ -173,5 +173,16 @@
 		border: none !important;
 		transform: translateY(-3px);
 		font-size: 2rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.navbar-logo {
+		font-size: 0.8rem;
+	}
+	.switch-component {
+		position: absolute;
+		right: 40%;
+		width: 60px;
 	}
 }

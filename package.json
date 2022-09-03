@@ -27,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy1": "aws s3 sync build/ s3://hammerine.com --delete"
+    "deploy1": "aws s3 sync build/ s3://hammerine.com --delete",
+    "deploy": "npm run build && npm run deploy1"
   },
   "eslintConfig": {
     "extends": [
