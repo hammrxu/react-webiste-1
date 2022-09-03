@@ -14,9 +14,9 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
+        <div className='navbar-container my-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Peng Xu
+            {process.env.REACT_APP_MY_NAME}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <FontAwesomeIcon icon={click ? faTimes : faBars} />

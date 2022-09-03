@@ -30,12 +30,20 @@ export default function About() {
 
           <div className='about-area-wrap'>
             <div className='about-1 about'>
-              <h2 className='about-title-1 about-title'>Background</h2>
+
+              <h2 className='about-title-1 about-title' >
+                <span class="anchor" id="anchor-background" />
+                Background
+              </h2>
               <FontAwesomeIcon className='about-icon about-icon-faGraduationCap' icon={faGraduationCap} /><p className='about-content-1 about-content'>My name is Peng Xu, or a preffered nickname Hammer Xu. I graduated in 2021 from York University with a Hon. Bachlor degree in Information Technology.</p>
             </div>
 
             <div className='about-2 about'>
-              <h2 className='about-title-2 about-title'>Career</h2>
+
+              <h2 className='about-title-2 about-title' >
+                <span class="anchor" id="anchor-career" />
+                Career
+              </h2>
               <FontAwesomeIcon className='about-icon about-icon-faShoePrints' icon={faShoePrints} /><p className='about-content-2 about-content'>With my practical experiences ranging across many different fields, I hope to one day dive into <strong>DevOps</strong>! Feel free to reach out and get connected, I love to meet new people!</p>
             </div>
 
@@ -45,7 +53,10 @@ export default function About() {
 
         </div>
         <div className='challenge-taking about-4 about'>
-          <h2 className='about-title-4 about-title'>Challenge Taking</h2>
+          <h2 className='about-title-4 about-title'>
+            <span class="anchor" id="anchor-challenges" />
+            Challenges Taking
+          </h2>
           <FontAwesomeIcon className='about-icon about-icon-4' icon={faGamepad} /><p className='about-content-4 about-content'>
             <a href='https://leetcode.com/'>LeetCode </a>
             <a href='https://flukeout.github.io/'>CSS Diner </a>
@@ -82,7 +93,10 @@ export default function About() {
           </div>
         </div>
         <div className='skill-box about'>
-          <h2 className='about-title'>Skills-Box</h2>
+          <h2 className='about-title'>
+            <span class="anchor" id="anchor-skills" />
+            Skills-Box
+          </h2>
           <div className='skillbox-wrap'>
             <SkillBoxA />
             <SkillBoxB />

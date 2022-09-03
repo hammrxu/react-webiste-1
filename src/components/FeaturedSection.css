@@ -36,3 +36,24 @@
 		background-origin: border-box;
 	}
 }
+@media screen and (max-width: 1000px) {
+	.card-row {
+		padding: 0 20vw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.card-row {
+		padding: 0 30vw;
+	}
+}
+@media screen and (max-width: 750px) {
+	.card-row {
+		padding: 0 30vw;
+	}
+}
+@media screen and (max-width: 550px) {
+	.card-row > a {
+		width: 400px;
+	}
+}

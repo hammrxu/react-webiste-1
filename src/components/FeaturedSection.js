@@ -9,13 +9,13 @@ function FeaturedSection() {
     return (
 
         <div className="landing-header featured-section row">
-            <div className="mt-5 mb-4 container">
+            <div className="mt-5 mb-4 container my-container">
                 <div className="mb-4 row">
                     <div className="col">
                         <h1 className="font-weight-bold dark-blue">Featured Work</h1>
                     </div>
                 </div>
-                <div className="row" style={{ opacity: 1 }}>
+                <div className="row card-row" style={{ opacity: 1 }}>
                     <a
                         style={{ textDecoration: "none" }}
                         className="col-lg-3 col-md-6 col-sm-12"

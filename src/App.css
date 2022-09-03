@@ -19,6 +19,18 @@ ul {
 	margin: 0 !important;
 }
 
+.anchor {
+	position: absolute;
+	transform: translateY(-50vh);
+}
+.my-container {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+.h1-title {
+	margin-top: 0;
+	margin-bottom: 1.5rem;
+}
 a:hover {
 	/* color: #53a8fd !important; */
 	color: var(--secondary) !important;

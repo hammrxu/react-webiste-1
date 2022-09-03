@@ -7,8 +7,8 @@ import './Brief.css';
 function Brief() {
     return (
         <>
-            <div className="brief-container w3-animate-bottom">
-                <h1>Hello There! <FontAwesomeIcon className="animate-spin" icon={faCommentDots} /></h1>
+            <div className="brief-container w3-animate-bottom my-container">
+                <h1 className="h1-title">Hello There! <FontAwesomeIcon className="animate-spin" icon={faCommentDots} /></h1>
                 <p>My name is <Link to='/' className='brief-my-name'>
                     Peng Xu
                 </Link>, a front-end/React Information Technology graduate. My interest is in <strong>Front End Development</strong> and I devoted myself in skill of <strong>React</strong> for web development!</p>
