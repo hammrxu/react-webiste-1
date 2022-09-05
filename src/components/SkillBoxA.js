@@ -10,7 +10,7 @@ function SkillBoxA() {
                 <div style={{ backgroundColor: "#883955" }}>Jquery</div>
                 <div style={{ backgroundColor: "#4C3549" }}>Boot strap</div>
                 <div style={{ backgroundColor: "#883955" }}>React</div>
-                <div style={{ backgroundColor: "#4C3549" }}>CSS</div>
+                <div style={{ backgroundColor: "#4C3549" }}>CSS3</div>
                 <div style={{ backgroundColor: "#883955" }}>Less</div>
 
             </div >
