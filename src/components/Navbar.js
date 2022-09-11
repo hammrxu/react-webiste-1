@@ -5,15 +5,57 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css';
 
+
+let lastScrollY = 0;
+let ticking = false;
+
+class ScrollNav extends React.Component {
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll, true);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  nav = React.createRef();
+
+  handleScroll = () => {
+    lastScrollY = window.scrollY;
+
+    if (!ticking) {
+      window.requestAnimationFrame(() => {
+        this.nav.current.style.top = `${lastScrollY}px`;
+        ticking = false;
+      });
+
+      ticking = true;
+    }
+  };
+
+  render() {
+    return (
+      <div>
+        <nav ref={this.nav}>
+        </nav>
+      </div>
+    );
+  }
+}
+
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [value, setValue] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  // const [scrolldown, setScrollDown] = useState(false);
+
+
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar' style={{}}>
         <div className='navbar-container my-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             {process.env.REACT_APP_MY_NAME}
@@ -34,6 +76,15 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about2'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About2
               </Link>
             </li>
             <li className='nav-item'>
