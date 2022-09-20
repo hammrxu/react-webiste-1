@@ -9,40 +9,6 @@ import './Navbar.css';
 let lastScrollY = 0;
 let ticking = false;
 
-class ScrollNav extends React.Component {
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll, true);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  nav = React.createRef();
-
-  handleScroll = () => {
-    lastScrollY = window.scrollY;
-
-    if (!ticking) {
-      window.requestAnimationFrame(() => {
-        this.nav.current.style.top = `${lastScrollY}px`;
-        ticking = false;
-      });
-
-      ticking = true;
-    }
-  };
-
-  render() {
-    return (
-      <div>
-        <nav ref={this.nav}>
-        </nav>
-      </div>
-    );
-  }
-}
-
 
 function Navbar() {
   const [click, setClick] = useState(false);
