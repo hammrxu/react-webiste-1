@@ -88,6 +88,10 @@ body.bg-dark .nav-links:hover {
 	border-bottom: 4px solid var(--primary);
 }
 
+body.bg-dark .about-wrap .about-icon {
+	color: var(--primary);
+}
+
 .home {
 	display: flex;
 	height: 90vh;

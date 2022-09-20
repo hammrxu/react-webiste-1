@@ -44,7 +44,7 @@ function Navbar() {
                 About
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/about2'
                 className='nav-links'
@@ -52,7 +52,7 @@ function Navbar() {
               >
                 About2
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <a className='nav-links'
                 onClick={closeMobileMenu} href={process.env.REACT_APP_MY_RESUME_LINK} target='_blank' rel="noreferrer" > RESUME</a>
