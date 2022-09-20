@@ -43,14 +43,14 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    WordPress: Toronto International Student
+                                    WordPress: International Student Ministries Canada
 
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Web Manager
+                                    Online Platform Manager
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
@@ -62,7 +62,7 @@ function FeaturedSection() {
                                         backgroundColor: feature_hover1 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Volunteering in a student facing non profit organization as a web manager.
+                                    Volunteering in a student facing non profit organization as Online Platform Manager.
                                 </p>
                             </div>
                         </div>
