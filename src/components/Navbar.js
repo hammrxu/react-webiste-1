@@ -6,9 +6,6 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css';
 
 
-let lastScrollY = 0;
-let ticking = false;
-
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -56,6 +53,10 @@ function Navbar() {
             <li className='nav-item'>
               <a className='nav-links'
                 onClick={closeMobileMenu} href={process.env.REACT_APP_MY_RESUME_LINK} target='_blank' rel="noreferrer" > RESUME</a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-links'
+                onClick={closeMobileMenu} href='https://github.com/hammrxu/react-webiste-1' target='_blank' rel="noreferrer">Code</a>
             </li>
           </ul>
           <div className="switch-component">
