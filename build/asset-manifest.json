@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3aafe7d8.css",
+    "main.js": "/static/js/main.c41bcfc4.js",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-VariableFont_wdth,wght.ceb05254cedfa895b512.ttf",
+    "index.html": "/index.html",
+    "main.3aafe7d8.css.map": "/static/css/main.3aafe7d8.css.map",
+    "main.c41bcfc4.js.map": "/static/js/main.c41bcfc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aafe7d8.css",
+    "static/js/main.c41bcfc4.js"
+  ]
+}
