@@ -1,5 +1,6 @@
 import './FeaturedSection.css';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function FeaturedSection() {
     const [feature_hover1, setHover1] = useState(false);
@@ -16,10 +17,10 @@ function FeaturedSection() {
                     </div>
                 </div>
                 <div className="row card-row" style={{ opacity: 1 }}>
-                    <a
+                    <Link
+                        to='/works/f/01'
                         style={{ textDecoration: "none" }}
-                        className="col-lg-3 col-md-6 col-sm-12"
-                        href="/"
+                        className="col-lg-3 col-md-6 col-sm-12 work-links"
                     >
                         <div style={{ opacity: 1 }}>
                             <div
@@ -66,11 +67,11 @@ function FeaturedSection() {
                                 </p>
                             </div>
                         </div>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
+                        to='/works/f/02'
                         style={{ textDecoration: "none" }}
-                        className="col-lg-3 col-md-6 col-sm-12"
-                        href="/"
+                        className="col-lg-3 col-md-6 col-sm-12 work-links"
                     >
                         <div style={{ opacity: 1 }}>
                             <div
@@ -101,7 +102,7 @@ function FeaturedSection() {
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Front-End Dev
+                                    IT Support Associate
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
@@ -113,15 +114,15 @@ function FeaturedSection() {
                                         backgroundColor: feature_hover2 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Created a web-based tool in PHP/Jquery/Mysql for the organization to schedule/assign service to helper for avoiding conflicts
+                                    Created a web-based tool in PHP/Jquery/Mysql designed for the organization to schedule/assign service to helper for avoiding conflicts
                                 </p>
                             </div>
                         </div>
-                    </a>
-                    <a
+                    </Link>
+                    <Link
+                        to='/works/f/03'
                         style={{ textDecoration: "none" }}
-                        className="col-lg-3 col-md-6 col-sm-12"
-                        href="/"
+                        className="col-lg-3 col-md-6 col-sm-12 work-links"
                     >
                         <div style={{ opacity: 1 }}>
                             <div
@@ -168,7 +169,7 @@ function FeaturedSection() {
                                 </p>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                     <a
                         style={{ textDecoration: "none" }}
                         className="col-lg-3 col-md-6 col-sm-12"

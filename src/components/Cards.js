@@ -16,7 +16,7 @@ function Cards() {
                 src='./images/img-5.jpg'
                 text='Scheduler (MLH Backyard Hacks III)'
                 label='JQeury / PHP'
-                path='/'
+                path='/works/n/04'
                 devpost='https://devpost.com/software/churchscheduler'
                 web='http://church-scheduler.lovestoblog.com/pages/index.php'
               />
