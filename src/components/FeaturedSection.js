@@ -13,7 +13,7 @@ function FeaturedSection() {
             <div className="mt-5 mb-4 container my-container">
                 <div className="mb-4 row">
                     <div className="col">
-                        <h1 className="font-weight-bold dark-blue">Featured Work</h1>
+                        <h1 className="font-weight-bold dark-blue">Featured Technical Work</h1>
                     </div>
                 </div>
                 <div className="row card-row" style={{ opacity: 1 }}>
@@ -170,17 +170,17 @@ function FeaturedSection() {
                             </div>
                         </div>
                     </Link>
-                    <a
+                    <Link
+                        to='/works/f/04'
                         style={{ textDecoration: "none" }}
-                        className="col-lg-3 col-md-6 col-sm-12"
-                        href="/"
+                        className="col-lg-3 col-md-6 col-sm-12 work-links"
                     >
                         <div style={{ opacity: 1 }}>
                             <div
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(30, 9, 59, 0.8), rgba(30, 9, 59, 0.2)), url("./images/img-4.jpg")',
+                                        'linear-gradient(rgba(30, 9, 59, 0.8), rgba(30, 9, 59, 0.2)), url("./images/img-freshbasket.jpg")',
 
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
@@ -198,13 +198,13 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    Coming Soon..........
+                                    VB.Net/Excel: Truly Fresh
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Coming Soon
+                                    Part Time Worker
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
@@ -220,7 +220,7 @@ function FeaturedSection() {
                                 </p>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div >
         </div >

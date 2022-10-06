@@ -49,9 +49,11 @@ function Work_Template(props) {
                             </div>
                         </div>
                         <div className='work_img_carousel_group'>
-                            <div className='work-title'>Relative Images</div>
-                            <div>Relative Images Component Placeholder</div>
-                            {img_listItems}
+                            <div className='work-title'>Related Images</div>
+                            {/* <div>Relative Images Component Placeholder</div> */}
+                            <div className='img-list'>
+                                {img_listItems}
+                            </div>
                         </div>
                         <div className='work_skills_used_group'>
                             <div className='work_skills_used'>

@@ -8,17 +8,14 @@
 	flex-direction: row;
 }
 .work_display_split {
-	border: 1px solid blue;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 }
 .work_display_area > div > div {
-	border: 1px solid red;
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
-	min-width: 100%;
 }
 .work_basic_info_group,
 .work_company_info_group,
@@ -41,15 +38,36 @@
 .ach-list li {
 	margin-bottom: 1rem;
 }
+.img-list {
+	display: flex;
+	flex-direction: row;
+}
 .work_img_carousel_group img {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 5px;
 	width: 150px;
+	margin-right: 5px;
+	margin-bottom: 5px;
 }
 .skill-list div {
 	margin: 6px;
 	padding: 4px;
 	background-color: #6d6358;
 	display: inline-block;
+}
+@media screen and (max-width: 768px) {
+	.work_display_area {
+		display: flex;
+		flex-direction: column;
+	}
+	.work_display_left {
+		width: 100%;
+	}
+	.work_display_right {
+		width: 100%;
+	}
+	.work_display_area > div > div {
+		overflow: scroll;
+	}
 }

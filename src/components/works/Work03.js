@@ -3,8 +3,8 @@ import Work_Template from './Work_template';
 
 function Work02() {
     const achievements_all = [
-        'Fast adapted to the CakePHP working environment and developed new functions by coding PHP and JavaScript in view, and controller parts',
-        'Developed new CRUD functions to SQL database using JQuery Ajax and PHP', 'Implemented components for uploading, downloading images, and all files using JavaScript', 'Improved UI/UX of implemented Content Management System project using Less for styling', 'Collaborated with a team of two through GitHub including fetch, pull requests, and code reviews'
+        'Adapted to the CakePHP coding framework fast by watching 100 hours+ Youtube learning videos on the web',
+        'Developed new CRUD functions to SQL database using JQuery Ajax and PHP', 'Solved the missing functions of uploading and downloading files/images by coding, testing the new functions in PHP and JS, MySql', 'Improved UI/UX, and developed reusable styling components through coding in Less of CSS', 'Collaborated with another member through GitHub including fetch, pull requests, and code reviews'
 
     ]
     const img_src_all = ['../../images/img-3.png']
@@ -17,7 +17,7 @@ function Work02() {
                 work_start='Jan 2022'
                 work_desc='Building the map query, file+image upload,navigation in MVC environment'
                 company_name='Freelance'
-                company_location='Toronto'
+                company_location='Toronto, ON'
                 company_website='/'
                 achievements_list={achievements_all}
                 img_src_list={img_src_all}

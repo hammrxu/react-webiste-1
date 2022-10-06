@@ -16,7 +16,7 @@ function Cards() {
                 src='./images/img-5.jpg'
                 text='Scheduler (MLH Backyard Hacks III)'
                 label='JQeury / PHP'
-                path='/works/n/04'
+                path='/works/n/01'
                 devpost='https://devpost.com/software/churchscheduler'
                 web='http://church-scheduler.lovestoblog.com/pages/index.php'
               />
@@ -24,15 +24,15 @@ function Cards() {
                 src='./images/img-5.jpg'
                 text='Lisp Interpreter (MLH Hacky Birthday MLH! 2022)'
                 label='Python / Lisp'
-                path='/'
+                path='/works/n/02'
                 devpost='https://devpost.com/software/simple-lisp-interpreter-in-python'
               />
-              <CardItem
+              {/* <CardItem
                 src='./images/img-6.jpg'
                 text='MS excel macros helping real Shopify business shortern data process'
                 label='VBA/MSExcel'
                 path='/'
-              />
+              /> */}
             </ul>
           </div>
         </div>

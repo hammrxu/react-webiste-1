@@ -7,6 +7,8 @@ import Work01 from './components/works/Work01';
 import Work02 from './components/works/Work02';
 import Work03 from './components/works/Work03';
 import Work04 from './components/works/Work04';
+import Workn01 from './components/works/Workn01';
+import Workn02 from './components/works/Workn02';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -25,7 +27,9 @@ function App() {
           <Route path='/works/f/01' element={<Work01 />}></Route>
           <Route path='/works/f/02' element={<Work02 />}></Route>
           <Route path='/works/f/03' element={<Work03 />}></Route>
-          <Route path='/works/n/04' element={<Work04 />}></Route>
+          <Route path='/works/f/04' element={<Work04 />}></Route>
+          <Route path='/works/n/01' element={<Workn01 />}></Route>
+          <Route path='/works/n/02' element={<Workn02 />}></Route>
 
         </Routes>
 

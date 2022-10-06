@@ -3,25 +3,30 @@ import Work_Template from './Work_template';
 
 function Work04() {
     const achievements_all = [
-        'Know better how front end contents and back end contents delivering and communication.'
+        'Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel',
+        'Trained end users by helping with the installation of micros and UI',
+        'Rewarded an extra 25% as a bonus payment for their satisfaction with the output',
+        'Documenting the micros in development for future maintenance',
+        'Provided written user manual for access of non-tech users'
+
 
     ]
-    const work_link_display = true;
-    const img_src_all = ['../../images/img-4.jpg']
-    const skills_all = ['PHP', 'Mysql']
+    const work_link_display = false;
+    const img_src_all = ['../../images/img-freshbasket.jpg', '../../images/img-freshvegitablebasket.jpg']
+    const skills_all = ['VB.Net', 'Excel', 'Shopify plugins', 'Shopify', 'Organic Fruit', 'Organic Vegitables', 'Frozon Product']
 
     return (
         <>
             <Work_Template
-                title_name='MLH Hackathon Project'
-                work_name='MLH Backyard Hacks III'
+                title_name='Part Time Worker'
+                work_name='Truly Fresh'
                 work_start='Jan 2022'
-                work_link='http://church-scheduler.lovestoblog.com/pages/index.php'
+                work_link='Not provided'
                 work_link_display={work_link_display}
-                work_desc='One day, I realize our church leaders will have to spend many puzzle time when scheduling helpers for sunday service because of communication to deal with helpers schedule conflicts. some helpers may also the other role of service...,So I start...'
-                company_name='MLH Hackathon'
-                company_location='Toronto Online'
-                company_website='https://devpost.com/software/churchscheduler'
+                work_desc='Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel'
+                company_name='Truly Fresh on Shopify'
+                company_location='Toronto, ON'
+                company_website='https://truly-fresh.ca/'
                 achievements_list={achievements_all}
                 img_src_list={img_src_all}
                 skills_list={skills_all}

@@ -3,11 +3,11 @@ import Work_Template from './Work_template';
 
 function Work01() {
     const achievements_all = [
-        'Manage organizational Toronto website on WordPress and align the consistent design to all sites for all other cities in Greater Toronto Area',
-        'Design, develop and deploy responsive and mobile-friendly design for event pages',
-        'Automate events to be imported from Google Calendar using Google APIs',
-        'Coordinate and train coworkers on its Facebook group(7000+ users) & page and Instagram for posting events updates',
-        'Work in a team of 6 people closely'
+        'Manage contents, displays, and updates on the organizational WordPress website of the Toronto branch',
+        'Ensure integrity of site to all other sites for all other cities in the Greater Toronto Area',
+        'Automate events inputs by importing from Google Calendar creating and setting up Google APIs',
+        'Coordinate and train coworkers to maintain its Facebook group(7000+ users) & page and its Instagram for posting events updates',
+        'Work closely in a team of 6 people through emails and social medias'
     ]
     const img_src_all = ['../../images/img-1.jpg']
     const skills_all = ['WordPress', 'CMS', 'Figma', 'Canva', 'CSS3', 'HTML5', 'JavaScript', 'WP plugins includes:', 'Wpform Elite', 'Modern Events Calendar Lite', 'SmartCrawl Pro', 'Elementor', 'User Role Editor']
@@ -20,7 +20,7 @@ function Work01() {
                 work_start='Aug 2022'
                 work_desc='Volunteering in a student facing non profit organization as Online Platform Manager.'
                 company_name='ISMC(International Student Ministries Canada)'
-                company_location='Toronto'
+                company_location='Toronto, ON'
                 company_website='https://www.torontointernationalstudent.com/'
                 achievements_list={achievements_all}
                 img_src_list={img_src_all}
