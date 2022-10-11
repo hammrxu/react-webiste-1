@@ -7,7 +7,7 @@ function SkillBoxC() {
         <div className="swatch-wrap">
             <div onClick={() => setClick(!close)} className={close ? "swatch swatch-close" : "swatch swatch-active"}>
                 <div style={{ backgroundColor: "#457B9D" }}>MS Office Suite</div>
-                <div style={{ backgroundColor: "#1D3557" }}>VBA</div>
+                <div style={{ backgroundColor: "#1D3557" }}>VB.Net</div>
                 <div style={{ backgroundColor: "#457B9D" }}>Java</div>
                 <div style={{ backgroundColor: "#1D3557" }}>PHP</div>
                 <div style={{ backgroundColor: "#457B9D" }}>Python</div>
