@@ -1,5 +1,5 @@
 import React from "react";
-import Work_Template from './Work_template';
+import WorkTemplate from './WorkTemplate';
 
 function Work01() {
     const achievements_all = [
@@ -15,7 +15,7 @@ function Work01() {
     return (
         <>
 
-            <Work_Template
+            <WorkTemplate
                 title_name='Online Platform Manager'
                 work_name='WordPress: International Student Ministries Canada'
                 work_start='Aug 2022'

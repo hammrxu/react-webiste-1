@@ -1,5 +1,5 @@
 import React from "react";
-import Work_Template from './Work_template';
+import WorkTemplate from './WorkTemplate';
 
 function Work04() {
     const achievements_all = [
@@ -17,7 +17,7 @@ function Work04() {
 
     return (
         <>
-            <Work_Template
+            <WorkTemplate
                 title_name='Part Time Worker'
                 work_name='Truly Fresh'
                 work_start='Jan 2022'

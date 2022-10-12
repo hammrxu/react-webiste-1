@@ -1,7 +1,7 @@
 import React from 'react';
-import './Work_template.css';
+import './WorkTemplate.css';
 
-function Work_Template(props) {
+function WorkTemplate(props) {
     const ach_tempList = props.achievements_list
     const ach_listItems = ach_tempList.map((data) =>
         <li>{data}</li>
@@ -28,7 +28,7 @@ function Work_Template(props) {
                             <div className='work-title'>About Work</div>
                             <p><strong>Title: </strong>{props.title_name}</p>
                             <p><strong>Where:</strong> {props.work_name}</p>
-                            {work_link_display ? <p><strong>Demo:</strong> <a href={props.work_link} target='_blank'>Click Link</a></p> : ''}
+                            {work_link_display ? <p><strong>Demo:</strong> <a href={props.work_link} target='_blank' rel="noreferrer">Click Link</a></p> : ''}
                             <p><strong>Start Date:</strong> {props.work_start}</p>
                             <p><strong>Short Description:</strong> {props.work_desc}</p>
                         </div>
@@ -36,7 +36,7 @@ function Work_Template(props) {
                             <div className='work-title'>About Work Company/Organization</div>
                             <p><strong>Name:</strong> {props.company_name}</p>
                             <p><strong>Location:</strong> {props.company_location}</p>
-                            <p><strong>Website:</strong>  <a href={props.company_website} target='_blank'>Click Link</a></p>
+                            <p><strong>Website:</strong>  <a href={props.company_website} target='_blank' rel="noreferrer">Click Link</a></p>
                         </div>
                     </div>
                     <div className='work_display_right work_display_split'>
@@ -70,4 +70,4 @@ function Work_Template(props) {
     );
 }
 
-export default Work_Template;
+export default WorkTemplate;

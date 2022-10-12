@@ -1,5 +1,5 @@
 import React from "react";
-import Work_Template from './Work_template';
+import WorkTemplate from './WorkTemplate';
 
 function Workn02() {
     const achievements_all = [
@@ -12,7 +12,7 @@ function Workn02() {
 
     return (
         <>
-            <Work_Template
+            <WorkTemplate
                 title_name='MLH Hackathon Project-Lisp Interpreter'
                 work_name='MLH Backyard Hacks III'
                 work_start='Aug 2022'

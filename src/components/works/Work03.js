@@ -1,5 +1,5 @@
 import React from "react";
-import Work_Template from './Work_template';
+import WorkTemplate from './WorkTemplate';
 
 function Work02() {
     const achievements_all = [
@@ -11,7 +11,7 @@ function Work02() {
     const skills_all = ['PHP', 'Mysql']
     return (
         <>
-            <Work_Template
+            <WorkTemplate
                 title_name='Front-End Dev'
                 work_name='JQeury/PHP: Freelance Work Experience'
                 work_start='Jan 2022'

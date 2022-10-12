@@ -1,0 +1,58 @@
+.route-works-display_area {
+  width: 60%;
+  margin: 5% auto;
+}
+.work_display_area {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+}
+.work_display_split {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.work_display_area > div > div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.work_basic_info_group,
+.work_company_info_group,
+.work_highlights_info_group,
+.work_img_carousel_group,
+.work_skills_used_group {
+  padding: 5rem 3rem;
+}
+.work-title {
+  font-weight: 700;
+  font-size: x-large;
+  margin-bottom: 2rem;
+}
+.work_display_left {
+  width: 40%;
+}
+.work_display_right {
+  width: 60%;
+}
+.ach-list li {
+  margin-bottom: 1rem;
+}
+.img-list {
+  display: flex;
+  flex-direction: row;
+}
+.work_img_carousel_group img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.skill-list div {
+  margin: 6px;
+  padding: 4px;
+  background-color: #6d6358;
+  display: inline-block;
+}
