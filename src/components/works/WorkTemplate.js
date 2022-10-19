@@ -26,7 +26,7 @@ function WorkTemplate(props) {
                     <div className='work_display_left work_display_split'>
                         <div className='work_basic_info_group'>
                             <PartAboutWork
-                                title={props.title_name}
+                                title_name={props.title_name}
                                 work_name={props.work_name}
                                 work_link_display={work_link_display}
                                 work_link={props.work_link}
