@@ -4,7 +4,7 @@ import Update from '../Update';
 import Cards from '../Cards';
 import Brief from '../Brief';
 import FeaturedSection from '../FeaturedSection';
-
+import RestAPI from '../RestAPI';
 
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
       <Brief />
       <FeaturedSection />
       <Cards />
-
+      <RestAPI />
     </>
   );
 }
