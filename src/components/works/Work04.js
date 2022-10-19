@@ -8,12 +8,28 @@ function Work04() {
         'Rewarded an extra 25% as a bonus payment for their satisfaction with the output',
         'Documenting the micros in development for future maintenance',
         'Provided written user manual for access of non-tech users'
-
-
     ]
     const work_link_display = false;
     const img_src_all = ['../../images/img-freshbasket.jpg', '../../images/img-freshvegitablebasket.jpg']
     const skills_all = ['VB.Net', 'Excel', 'Shopify plugins', 'Shopify', 'Organic Fruit', 'Organic Vegitables', 'Frozon Product']
+    const img_src_all_objs = img_src_all.map(
+        (img_src, i) => ({
+            id: i,
+            src: img_src
+        })
+    );
+    const achievements_all_objs = achievements_all.map(
+        (achievement, i) => ({
+            id: i,
+            title: achievement
+        })
+    );
+    const skills_all_objs = skills_all.map(
+        (skill, i) => ({
+            id: i,
+            src: skill
+        })
+    );
 
     return (
         <>
@@ -27,9 +43,9 @@ function Work04() {
                 company_name='Truly Fresh on Shopify'
                 company_location='Toronto, ON'
                 company_website='https://truly-fresh.ca/'
-                achievements_list={achievements_all}
-                img_src_list={img_src_all}
-                skills_list={skills_all}
+                achievements_list={achievements_all_objs}
+                img_src_list={img_src_all_objs}
+                skills_list={skills_all_objs}
             />
         </>
     );
