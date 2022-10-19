@@ -29,7 +29,7 @@ function Work01() {
     const skills_all_objs = skills_all.map(
         (skill, i) => ({
             id: i,
-            src: skill
+            title: skill
         })
     );
     return (
