@@ -1,0 +1,117 @@
+[
+    {
+        "Name": "Work01",
+        "title_name":"Online Platform Manager",
+        "work_name":"WordPress: International Student Ministries Canada",
+        "work_start":"Aug 2022",
+        "work_desc":"Working in a student-facing non profit organization as Online Platform Manager.",
+        "company_name":"ISMC(International Student Ministries Canada)",
+        "company_location":"Toronto, ON",
+        "company_website":"https://www.torontointernationalstudent.com/",
+        "achievements_list":[
+            "Manage contents, displays, and updates on the organizational WordPress website of the Toronto branch",
+            "Ensure integrity of site to all other sites for all other cities in the Greater Toronto Area",
+            "Automate events inputs by importing from Google Calendar creating and setting up Google APIs",
+            "Coordinate and train coworkers to maintain its Facebook group(7000+ users) & page and its Instagram for posting events updates",
+            "Work closely in a team of 6 people through emails and social medias",
+            "Use Google Analytics4 to analize, marketing the webiste"
+        ],
+        "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work01/work01_01.jpg"],
+        "skills_list":["WordPress", "CMS", "GA4", "CSS3", "HTML5", "JavaScript", "WP plugins includes:", "Wpform Elite", "Modern Events Calendar Lite", "SmartCrawl Pro", "User Role Editor"]
+    },
+    {
+        "Name": "Work02",
+        "title_name":"IT Support Associate",
+        "work_name":"JQeury/PHP/MySql: WTCBC Church",
+        "work_start":"Apr 2022",
+        "work_desc":"Created a web-based tool in PHP/Jquery/Mysql designed for the organization to schedule/assign service to helper for avoiding conflicts.",
+        "company_name":"West Toronto Chinese Bible Church",
+        "company_location":"Toronto, ON",
+        "company_website":"https://wtcbc.com/",
+        "achievements_list":[
+            "Designed, deployed, and build a web-based tool designed to help minimization of coworkers schedule conflicts as Full Stack using JQuery, PHP, MySql",
+            "Developed login portal, and register portal that validates users and helped the user privilege controls in the future",
+            "Achieved the working independence of building for both front end and back end from scratch"
+        ],
+        "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work02/work02_01.png"],
+        "skills_list":["PHP", "Mysql"]
+    },
+    {
+        "Name": "Work03",
+        "title_name":"Front-End Dev",
+        "work_name":"JQeury/PHP: Freelance Work Experience",
+        "work_start":"Jan 2022",
+        "work_desc":"Building the map query, file+image upload,navigation in MVC environment.",
+        "company_name":"Freelance",
+        "company_location":"Toronto, ON",
+        "company_website":"/",
+        "achievements_list":[
+            "Adapted to the CakePHP coding framework fast by watching 100 hours+ Youtube learning videos on the web",
+            "Developed new CRUD functions to SQL database using JQuery Ajax and PHP",
+            "Solved the missing functions of uploading and downloading files/images by coding, testing the new functions in PHP and JS, MySql","Improved UI/UX, and developed reusable styling components through coding in Less of CSS","Collaborated with another member through GitHub including fetch, pull requests, and code reviews"
+        ],
+        "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work03/work03_01.png"],
+        "skills_list":["PHP", "Mysql"]
+    },
+    {
+        "Name": "Work04",
+        "title_name":"Part Time Worker",
+        "work_name":"Truly Fresh",
+        "work_link":"Not provided",
+        "work_link_display":"false",
+        "work_start":"Jan 2022",
+        "work_desc":"Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel.",
+        "company_name":"Truly Fresh on Shopify",
+        "company_location":"Toronto, ON",
+        "company_website":"https://truly-fresh.ca/",
+        "achievements_list":[
+            "Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel",
+            "Trained end users by helping with the installation of micros and UI",
+            "Documenting the micros in development for future maintenance",
+            "Provided written user manual for access of non-tech users",
+            "Rewarded an extra 25% as a bonus payment for their satisfaction with the output"
+        ],
+        "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work04/work04_01.jpg","https://hammer-resume-1.s3.amazonaws.com/work_images/work04/work04_02.jpg"],
+        "skills_list":["VB.Net", "Excel", "Shopify plugins", "Shopify", "Organic Fruit", "Organic Vegitables", "Frozon Product"]
+    },
+
+    {
+        "Name": "Workn01",
+        "title_name":"MLH Hackathon Project",
+        "work_name":"MLH Backyard Hacks III",
+        "work_link":"http://church-scheduler.lovestoblog.com/pages/index.php",
+        "work_link_display":"true",
+        "work_start":"Jan 2022",
+        "work_desc":"One day, I realize our church leaders will have to spend many puzzle time when scheduling helpers for sunday service because of communication to deal with helpers schedule conflicts. some helpers may also the other role of service..., So I start...",
+        "company_name":"MLH Hackathon",
+        "company_location":"Toronto, ON",
+        "company_website":"https://devpost.com/hackathons?eligibility=1",
+        "achievements_list":[
+            "Know better how front end contents and back end contents delivering and communication"
+        ],
+        "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/workn01/workn01_01.jpg"],
+        "skills_list":["PHP", "Mysql","PHPMyAdmin","ES6","CSS3","LESS"]
+    },
+
+    {
+        "Name": "Workn02",
+        "title_name":"MLH Hackathon Project-Lisp Interpreter",
+        "work_name":"MLH Backyard Hacks III",
+        "work_link":"https://devpost.com/software/simple-lisp-interpreter-in-python",
+        "work_link_display":"true",
+        "work_start":"Aug 2022",
+        "work_desc":"Developed a simple interpreter to execute instructions are written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program.",
+        "company_name":"MLH Hackathon",
+        "company_location":"Toronto, ON",
+        "company_website":"https://devpost.com/hackathons?eligibility=1",
+        "achievements_list":[
+            "Learned more about the structure and interpretation of computer programs and demonstrated the ability to analyze a programming language using Python",
+            "implementation of an interpreter for a computer language called LISP"
+        ],
+        "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/workn02/workn02_01.jpg"],
+        "skills_list":["Python", "LISP"]
+    }
+
+    
+]
+    

@@ -1,48 +1,31 @@
 import React from "react";
 import WorkTemplate from './WorkTemplate';
+import { useEffect, useState } from 'react';
 
 function Workn01() {
-    const achievements_all = [
-        'Know better how front end contents and back end contents delivering and communication.'
-
-    ]
-    const work_link_display = true;
-    const img_src_all = ['../../images/img-4.jpg']
-    const skills_all = ['PHP', 'Mysql']
-    const img_src_all_objs = img_src_all.map(
-        (img_src, i) => ({
-            id: i,
-            src: img_src
-        })
-    );
-    const achievements_all_objs = achievements_all.map(
-        (achievement, i) => ({
-            id: i,
-            title: achievement
-        })
-    );
-    const skills_all_objs = skills_all.map(
-        (skill, i) => ({
-            id: i,
-            title: skill
-        })
-    );
+    function loadWork() {
+        fetch("https://hammer-resume-1.s3.amazonaws.com/WorksAPI.json")
+            .then((response) => response.json())
+            .then((data) => setWork(data[0]));
+    }
+    const [work, setWork] = useState([]);
+    useEffect(() => { loadWork() });
 
     return (
         <>
             <WorkTemplate
-                title_name='MLH Hackathon Project'
-                work_name='MLH Backyard Hacks III'
-                work_start='Jan 2022'
-                work_link='http://church-scheduler.lovestoblog.com/pages/index.php'
-                work_link_display={work_link_display}
-                work_desc='One day, I realize our church leaders will have to spend many puzzle time when scheduling helpers for sunday service because of communication to deal with helpers schedule conflicts. some helpers may also the other role of service...,So I start...'
-                company_name='MLH Hackathon'
-                company_location='Toronto, ON'
-                company_website='https://devpost.com/hackathons?eligibility=1'
-                achievements_list={achievements_all_objs}
-                img_src_list={img_src_all_objs}
-                skills_list={skills_all_objs}
+                title_name={work.title_name}
+                work_name={work.work_name}
+                work_start={work.work_start}
+                work_desc={work.work_desc}
+                work_link_display={work.work_link_display}
+                work_link={work.work_link}
+                company_name={work.company_name}
+                company_location={work.company_location}
+                company_website={work.company_website}
+                achievements_list={work.achievements_list}
+                img_src_list={work.img_src_list}
+                skills_list={work.skills_list}
             />
         </>
     );

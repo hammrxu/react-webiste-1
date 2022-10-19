@@ -1,45 +1,31 @@
 import React from "react";
 import WorkTemplate from './WorkTemplate';
+import { useEffect, useState } from 'react';
 
 function Work02() {
-    const achievements_all = [
-        'Designed, deployed, and build a web-based tool designed to help minimization of coworkers schedule conflicts as Full Stack using JQuery, PHP, MySql',
-        'Developed login portal, and register portal that validates users and helped the user privilege controls in the future',
-        'Achieved the working independence of building for both front end and back end from scratch'
-    ]
-    const img_src_all = ['../../images/img-2.png']
-    const skills_all = ['PHP', 'Mysql']
-    const img_src_all_objs = img_src_all.map(
-        (img_src, i) => ({
-            id: i,
-            src: img_src
-        })
-    );
-    const achievements_all_objs = achievements_all.map(
-        (achievement, i) => ({
-            id: i,
-            title: achievement
-        })
-    );
-    const skills_all_objs = skills_all.map(
-        (skill, i) => ({
-            id: i,
-            title: skill
-        })
-    );
+    function loadWork() {
+        fetch("https://hammer-resume-1.s3.amazonaws.com/WorksAPI.json")
+            .then((response) => response.json())
+            .then((data) => setWork(data[0]));
+    }
+    const [work, setWork] = useState([]);
+    useEffect(() => { loadWork() });
+
     return (
         <>
             <WorkTemplate
-                title_name='IT Support Associate'
-                work_name='JQeury/PHP/MySql: WTCBC Church'
-                work_start='Apr 2022'
-                work_desc='Created a web-based tool in PHP/Jquery/Mysql designed for the organization to schedule/assign service to helper for avoiding conflicts'
-                company_name='West Toronto Chinese Bible Church'
-                company_location='Toronto, ON'
-                company_website='https://wtcbc.com/'
-                achievements_list={achievements_all_objs}
-                img_src_list={img_src_all_objs}
-                skills_list={skills_all_objs}
+                title_name={work.title_name}
+                work_name={work.work_name}
+                work_start={work.work_start}
+                work_desc={work.work_desc}
+                work_link_display={work.work_link_display}
+                work_link={work.work_link}
+                company_name={work.company_name}
+                company_location={work.company_location}
+                company_website={work.company_website}
+                achievements_list={work.achievements_list}
+                img_src_list={work.img_src_list}
+                skills_list={work.skills_list}
             />
         </>
     );

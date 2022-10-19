@@ -1,51 +1,31 @@
 import React from "react";
 import WorkTemplate from './WorkTemplate';
+import { useEffect, useState } from 'react';
 
 function Work04() {
-    const achievements_all = [
-        'Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel',
-        'Trained end users by helping with the installation of micros and UI',
-        'Rewarded an extra 25% as a bonus payment for their satisfaction with the output',
-        'Documenting the micros in development for future maintenance',
-        'Provided written user manual for access of non-tech users'
-    ]
-    const work_link_display = false;
-    const img_src_all = ['../../images/img-freshbasket.jpg', '../../images/img-freshvegitablebasket.jpg']
-    const skills_all = ['VB.Net', 'Excel', 'Shopify plugins', 'Shopify', 'Organic Fruit', 'Organic Vegitables', 'Frozon Product']
-    const img_src_all_objs = img_src_all.map(
-        (img_src, i) => ({
-            id: i,
-            src: img_src
-        })
-    );
-    const achievements_all_objs = achievements_all.map(
-        (achievement, i) => ({
-            id: i,
-            title: achievement
-        })
-    );
-    const skills_all_objs = skills_all.map(
-        (skill, i) => ({
-            id: i,
-            title: skill
-        })
-    );
+    function loadWork() {
+        fetch("https://hammer-resume-1.s3.amazonaws.com/WorksAPI.json")
+            .then((response) => response.json())
+            .then((data) => setWork(data[0]));
+    }
+    const [work, setWork] = useState([]);
+    useEffect(() => { loadWork() });
 
     return (
         <>
             <WorkTemplate
-                title_name='Part Time Worker'
-                work_name='Truly Fresh'
-                work_start='Jan 2022'
-                work_link='Not provided'
-                work_link_display={work_link_display}
-                work_desc='Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel'
-                company_name='Truly Fresh on Shopify'
-                company_location='Toronto, ON'
-                company_website='https://truly-fresh.ca/'
-                achievements_list={achievements_all_objs}
-                img_src_list={img_src_all_objs}
-                skills_list={skills_all_objs}
+                title_name={work.title_name}
+                work_name={work.work_name}
+                work_start={work.work_start}
+                work_desc={work.work_desc}
+                work_link_display={work.work_link_display}
+                work_link={work.work_link}
+                company_name={work.company_name}
+                company_location={work.company_location}
+                company_website={work.company_website}
+                achievements_list={work.achievements_list}
+                img_src_list={work.img_src_list}
+                skills_list={work.skills_list}
             />
         </>
     );

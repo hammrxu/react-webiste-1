@@ -3,18 +3,18 @@ import './WorkTemplate.css';
 
 function WorkTemplate(props) {
     const ach_tempList = props.achievements_list
-    const ach_listItems = ach_tempList.map((data) =>
-        <li key={data.id}>{data.title}</li>
+    const ach_listItems = ach_tempList?.map((data, i) =>
+        <li key={i}>{data}</li>
     );
 
     const img_tempList = props.img_src_list
-    const img_listItems = img_tempList.map((data) =>
-        <img key={data.id} src={data.src} alt='Imgs'></img>
+    const img_listItems = img_tempList?.map((data, i) =>
+        <img key={i} src={data} alt='Imgs'></img>
     );
 
     const skill_tempList = props.skills_list
-    const skill_listItems = skill_tempList.map((data) =>
-        <div key={data.id}>{data.title}</div>
+    const skill_listItems = skill_tempList?.map((data, i) =>
+        <div key={i}>{data}</div>
     );
     const work_link_display = props.work_link_display
 

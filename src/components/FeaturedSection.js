@@ -27,7 +27,7 @@ function FeaturedSection() {
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(180, 20, 25, 0.8), rgba(180, 20, 25, 0.2)), url("./images/img-1.jpg")',
+                                        'linear-gradient(rgba(180, 20, 25, 0.8), rgba(180, 20, 25, 0.2)), url("https://hammer-resume-1.s3.amazonaws.com/cover_images/featured_images/work01/work01_01.jpg")',
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
                                 }}
@@ -78,7 +78,7 @@ function FeaturedSection() {
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(1, 49, 138, 0.8), rgba(1, 49, 138, 0.2)), url("./images/img-2.png")',
+                                        'linear-gradient(rgba(1, 49, 138, 0.8), rgba(1, 49, 138, 0.2)), url("https://hammer-resume-1.s3.amazonaws.com/cover_images/featured_images/work02/work02_01.png")',
 
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
@@ -129,7 +129,7 @@ function FeaturedSection() {
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(179, 123, 45, 0.8), rgba(179, 123, 45, 0.2)), url("./images/img-3.png")',
+                                        'linear-gradient(rgba(179, 123, 45, 0.8), rgba(179, 123, 45, 0.2)), url("https://hammer-resume-1.s3.amazonaws.com/cover_images/featured_images/work03/work03_01.png")',
 
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
@@ -180,7 +180,7 @@ function FeaturedSection() {
                                 className="dynamic-cards mb-3"
                                 style={{
                                     backgroundImage:
-                                        'linear-gradient(rgba(30, 9, 59, 0.8), rgba(30, 9, 59, 0.2)), url("./images/img-freshbasket.jpg")',
+                                        'linear-gradient(rgba(30, 9, 59, 0.8), rgba(30, 9, 59, 0.2)), url("https://hammer-resume-1.s3.amazonaws.com/cover_images/featured_images/work04/work04_01.jpg")',
 
                                     boxShadow: "grey 0px 0px 5px 0px",
                                     borderRadius: 8
