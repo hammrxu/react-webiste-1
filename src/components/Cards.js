@@ -21,7 +21,7 @@ function Cards() {
                 web='http://church-scheduler.lovestoblog.com/pages/index.php'
               />
               <CardItem
-                src='https://hammer-resume-1.s3.amazonaws.com/cover_images/other_work_images/card02.jpg'
+                src='https://hammer-resume-1.s3.amazonaws.com/cover_images/other_work_images/card01.jpg'
                 text='Lisp Interpreter (MLH Hacky Birthday MLH! 2022)'
                 label='Python / Lisp'
                 path='/works/n/02'
