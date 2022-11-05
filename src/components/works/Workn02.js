@@ -6,7 +6,7 @@ function Workn02() {
     function loadWork() {
         fetch("https://hammer-resume-1.s3.amazonaws.com/WorksAPI.json")
             .then((response) => response.json())
-            .then((data) => setWork(data[0]));
+            .then((data) => setWork(data[5]));
     }
     const [work, setWork] = useState([]);
     useEffect(() => { loadWork() });

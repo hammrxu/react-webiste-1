@@ -55,24 +55,24 @@
     },
     {
         "Name": "Work04",
-        "title_name":"Part Time Worker",
+        "title_name":"Automation Development",
         "work_name":"Truly Fresh",
         "work_link":"Not provided",
         "work_link_display":"false",
         "work_start":"Jan 2022",
-        "work_desc":"Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel.",
+        "work_desc":"Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use and automated process in form of add-on of Excel.",
         "company_name":"Truly Fresh on Shopify",
         "company_location":"Toronto, ON",
         "company_website":"https://truly-fresh.ca/",
         "achievements_list":[
-            "Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use add-on of Excel",
+            "Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use and automated process in form of add-on of Excel",
             "Trained end users by helping with the installation of micros and UI",
             "Documenting the micros in development for future maintenance",
             "Provided written user manual for access of non-tech users",
             "Rewarded an extra 25% as a bonus payment for their satisfaction with the output"
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work04/work04_01.jpg","https://hammer-resume-1.s3.amazonaws.com/work_images/work04/work04_02.jpg"],
-        "skills_list":["VB.Net", "Excel", "Shopify plugins", "Shopify", "Organic Fruit", "Organic Vegitables", "Frozon Product"]
+        "skills_list":["VB.Net", "Excel", "Excel add-on","Shopify plugins", "Shopify", "Site Recommendation", "Data Analysis", "Automation","Operation Development"]
     },
 
     {
