@@ -24,12 +24,15 @@
         "title_name":"IT Support Associate",
         "work_name":"WTCBC Church",
         "work_start":"Apr 2022 - Now",
-        "work_desc":"Created a web-based tool in PHP/Jquery/Mysql designed for the organization to schedule/assign service to helper for avoiding conflicts.",
+        "work_desc":"Provide technical supports including AV and Livestream operations and have built a web-based tool for schceduling.",
         "company_name":"West Toronto Chinese Bible Church",
         "company_location":"Toronto, ON",
-        "company_website":"https://wtcbc.com/",
+        "company_website":"https://wtcbc.com/, https://www.facebook.com/westcbc/",
         "achievements_list":[
-            
+            "Responsible for providing on-site technical support",
+            "Performing equipment setup/troubleshooting (Windows PCs, mobile devices and a variety of office equipment)",
+            "Test, Install and control Audio tuning and Video screen shair and livestream services operation during Sunday serives",
+            "Check 'Projects' for furthur information about web-based tool for scheduling"
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work02/work02_01.png"],
         "skills_list":["Behringer x32 Digital Mixer", "Sound System","Livestreaming","Technical Support"]
