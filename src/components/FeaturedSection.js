@@ -198,13 +198,13 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    VB.Net/Excel: Truly Fresh
+                                    Truly Fresh
                                 </p>
                                 <h3
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Part Time Worker
+                                    Automation Development
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
