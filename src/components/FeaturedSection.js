@@ -204,7 +204,7 @@ function FeaturedSection() {
                                     className="font-weight-medium"
                                     style={{ paddingTop: 0, lineHeight: "1em" }}
                                 >
-                                    Automation Development
+                                    Automation Engineer
                                 </h3>
                                 <p
                                     className="font-weight-light text-card"
@@ -216,7 +216,7 @@ function FeaturedSection() {
                                         backgroundColor: feature_hover4 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Provide technical supports for a Shopify business including weekly data process, delivery form capability development and others.
+                                    Provide engineering development and technical supports for a Shopify business including weekly data process, delivery form capability development and others.
                                 </p>
                             </div>
                         </div>
