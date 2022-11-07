@@ -2,8 +2,8 @@
     {
         "Name": "Work01",
         "title_name":"Online Platform Manager",
-        "work_name":"WordPress: International Student Ministries Canada",
-        "work_start":"Aug 2022",
+        "work_name":"International Student Ministries Canada",
+        "work_start":"Aug 2022 - Now",
         "work_desc":"Working in a student-facing non profit organization as Online Platform Manager.",
         "company_name":"ISMC(International Student Ministries Canada)",
         "company_location":"Toronto, ON",
@@ -17,30 +17,28 @@
             "Use Google Analytics4 to analize, marketing the webiste"
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work01/work01_01.jpg"],
-        "skills_list":["WordPress", "CMS", "GA4", "CSS3", "HTML5", "JavaScript", "WP plugins includes:", "Wpform Elite", "Modern Events Calendar Lite", "SmartCrawl Pro", "User Role Editor"]
+        "skills_list":["WordPress", "CMS", "GA4", "CSS3", "HTML5", "JavaScript", "WP plugins includes:", "Wpform Elite", "Modern Events Calendar Lite", "SmartCrawl Pro", "User Role Editor","Technical Support"]
     },
     {
         "Name": "Work02",
         "title_name":"IT Support Associate",
-        "work_name":"JQeury/PHP/MySql: WTCBC Church",
-        "work_start":"Apr 2022",
+        "work_name":"WTCBC Church",
+        "work_start":"Apr 2022 - Now",
         "work_desc":"Created a web-based tool in PHP/Jquery/Mysql designed for the organization to schedule/assign service to helper for avoiding conflicts.",
         "company_name":"West Toronto Chinese Bible Church",
         "company_location":"Toronto, ON",
         "company_website":"https://wtcbc.com/",
         "achievements_list":[
-            "Designed, deployed, and build a web-based tool designed to help minimization of coworkers schedule conflicts as Full Stack using JQuery, PHP, MySql",
-            "Developed login portal, and register portal that validates users and helped the user privilege controls in the future",
-            "Achieved the working independence of building for both front end and back end from scratch"
+            
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work02/work02_01.png"],
-        "skills_list":["PHP", "Mysql"]
+        "skills_list":["Behringer x32 Digital Mixer", "Sound System","Livestreaming","Technical Support"]
     },
     {
         "Name": "Work03",
         "title_name":"Front-End Dev",
-        "work_name":"JQeury/PHP: Freelance Work Experience",
-        "work_start":"Jan 2022",
+        "work_name":"Freelance Work Experience",
+        "work_start":"Jan 2022 - Now",
         "work_desc":"Building the map query, file+image upload,navigation in MVC environment.",
         "company_name":"Freelance",
         "company_location":"Toronto, ON",
@@ -51,16 +49,16 @@
             "Solved the missing functions of uploading and downloading files/images by coding, testing the new functions in PHP and JS, MySql","Improved UI/UX, and developed reusable styling components through coding in Less of CSS","Collaborated with another member through GitHub including fetch, pull requests, and code reviews"
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work03/work03_01.png"],
-        "skills_list":["PHP", "Mysql"]
+        "skills_list":["PHP", "Mysql","JavaScript","CSS3","HTML5"]
     },
     {
         "Name": "Work04",
-        "title_name":"Automation Development",
+        "title_name":"Automation Engineer",
         "work_name":"Truly Fresh",
         "work_link":"Not provided",
         "work_link_display":"false",
-        "work_start":"Jan 2022",
-        "work_desc":"Fastened weekly data process time of a Shopify company from over 3 hours to 10 minutes by coding in VB.NET to develop an easy-to-use and automated process in form of add-on of Excel.",
+        "work_start":"Jan 2022 - Nov 2022",
+        "work_desc":"Provide technical supports for the business including weekly data process, delivery form capability development and others.",
         "company_name":"Truly Fresh on Shopify",
         "company_location":"Toronto, ON",
         "company_website":"https://truly-fresh.ca/",
@@ -72,7 +70,7 @@
             "Rewarded an extra 25% as a bonus payment for their satisfaction with the output"
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/work04/work04_01.jpg","https://hammer-resume-1.s3.amazonaws.com/work_images/work04/work04_02.jpg"],
-        "skills_list":["VB.Net", "Excel", "Excel add-on","Shopify plugins", "Shopify", "Site Recommendation", "Data Analysis", "Automation","Operation Development"]
+        "skills_list":["VB.Net", "Excel", "Excel add-on","Shopify plugins", "Shopify", "Site Recommendation", "Data Analysis", "Automation","Operation Development","Technical Support"]
     },
 
     {
@@ -87,6 +85,9 @@
         "company_location":"Toronto, ON",
         "company_website":"https://devpost.com/hackathons?eligibility=1",
         "achievements_list":[
+            "Designed, deployed, and build a web-based tool designed to help minimization of coworkers schedule conflicts as Full Stack using JQuery, PHP, MySql",
+            "Developed login portal, and register portal that validates users and helped the user privilege controls in the future",
+            "Achieved the working independence of building for both front end and back end from scratch",
             "Know better how front end contents and back end contents delivering and communication"
         ],
         "img_src_list":["https://hammer-resume-1.s3.amazonaws.com/work_images/workn01/workn01_01.jpg"],

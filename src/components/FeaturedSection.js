@@ -44,7 +44,7 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    WordPress: International Student Ministries Canada
+                                    International Student Ministries Canada(ISMC)
 
                                 </p>
                                 <h3
@@ -63,7 +63,7 @@ function FeaturedSection() {
                                         backgroundColor: feature_hover1 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Volunteering in a student facing non profit organization as Online Platform Manager.
+                                    Working in a student facing non profit organization as Online Platform Manager.
                                 </p>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    JQeury/PHP/MySql: WTCBC Church
+                                    WTCBC Church
                                 </p>
                                 <h3
                                     className="font-weight-medium"
@@ -114,7 +114,7 @@ function FeaturedSection() {
                                         backgroundColor: feature_hover2 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-                                    Created a web-based tool in PHP/Jquery/Mysql designed for the organization to schedule/assign service to helper for avoiding conflicts
+                                    Provide technical supports including AV and Livestream operations and have built a web-based tool for schceduling.
                                 </p>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ function FeaturedSection() {
                                         color: "#EAEAEA"
                                     }}
                                 >
-                                    JQeury/PHP: Freelance Work Experience
+                                    Freelancer
                                 </p>
                                 <h3
                                     className="font-weight-medium"
@@ -216,7 +216,7 @@ function FeaturedSection() {
                                         backgroundColor: feature_hover4 ? "rgba(0, 0, 0, .2)" : ""
                                     }}
                                 >
-
+                                    Provide technical supports for a Shopify business including weekly data process, delivery form capability development and others.
                                 </p>
                             </div>
                         </div>
